@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Professor Bumblefluff",
+      "email": "bumblefluffp@example.com",
+      "cohort": "C79"
+    },
+    {
+      "id": 2,
+      "name": "Waffles Pancake",
+      "email": "wafflespancake@example.com",
+      "cohort": "C76"
+    },
+    {
+      "id": 3,
+      "name": "Sir Quackington",
+      "email": "quackington@example.com",
+      "cohort": "C77"
+    },
+    {
+      "id": 4,
+      "name": "Pickle von Fizzlebottom",
+      "email": "picklevonfizz@example.com",
+      "cohort": "C78"
+    },
+    {
+      "id": 5,
+      "name": "Captain Noodlebeard",
+      "email": "noodlebeardc@example.com",
+      "cohort": "C80"
+    },
+    {
+      "name": "Tumble Dweeb",
+      "email": "tumbledweeb7@zmail.com",
+      "cohort": 62,
+      "id": 6
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding JavaScript Closures",
+      "body": "Closures are a fundamental concept in JavaScript. They allow functions to retain access to variables from their parent scope even after the parent function has executed. This is incredibly useful for creating private variables and functions.",
+      "date": "01-10-23",
+      "userId": 2,
+      "topicId": 1
+    },
+    {
+      "id": 2,
+      "title": "HTML Semantic Elements Explained",
+      "body": "Using semantic elements like <header>, <main>, <section>, and <footer> makes your HTML more readable and accessible. It also helps with SEO and improves the structure of your web pages.",
+      "date": "02-14-23",
+      "userId": 4,
+      "topicId": 2
+    },
+    {
+      "id": 3,
+      "title": "CSS Flexbox vs Grid",
+      "body": "Flexbox is great for one-dimensional layouts, while Grid is perfect for two-dimensional layouts. Understanding when to use each can make your CSS much more efficient and your layouts more responsive.",
+      "date": "03-11-24",
+      "userId": 3,
+      "topicId": 3
+    },
+    {
+      "id": 4,
+      "title": "Getting Started with React Hooks",
+      "body": "React Hooks like useState and useEffect allow you to use state and lifecycle features in functional components. They simplify your code and make it easier to reuse logic across components.",
+      "date": "04-01-24",
+      "userId": 1,
+      "topicId": 4
+    },
+    {
+      "id": 5,
+      "title": "Mastering Git Branching Strategies",
+      "body": "Using Git branching strategies like Git Flow or GitHub Flow can help your team collaborate more effectively. It ensures that your main branch is always stable and deployable.",
+      "date": "05-05-22",
+      "userId": 6,
+      "topicId": 5
+    },
+    {
+      "id": 6,
+      "title": "Terminal Commands Every Developer Should Know",
+      "body": "Learning basic terminal commands like ls, cd, mkdir, and rm can significantly improve your productivity. These commands are essential for navigating and managing files in a Unix-based system.",
+      "date": "06-20-25",
+      "userId": 5,
+      "topicId": 6
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Java Script"
+    },
+    {
+      "id": 2,
+      "name": "HTML"
+    },
+    {
+      "id": 3,
+      "name": "CSS"
+    },
+    {
+      "id": 4,
+      "name": "React"
+    },
+    {
+      "id": 5,
+      "name": "Git Hub"
+    },
+    {
+      "id": 6,
+      "name": "Terminal"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "postId": 2
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "postId": 3
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "postId": 4
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "postId": 4
+    },
+    {
+      "id": 6,
+      "userId": 4,
+      "postId": 1
+    },
+    {
+      "id": 7,
+      "userId": 4,
+      "postId": 1
+    },
+    {
+      "id": 8,
+      "userId": 5,
+      "postId": 6
+    }
+  ]
+}
